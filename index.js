@@ -12,6 +12,7 @@ const customError = (data) => {
 // Extra parameters can be stated in the extra object,
 // with a Boolean value indicating whether or not they
 // should be required.
+// this is when you do a request
 const customParams = {
   playerId: ['playerId'],
   endpoint: false
@@ -26,6 +27,8 @@ const createRequest = (input, callback) => {
 
   const url = `https://api.sportsdata.io/v3/soccer/stats/json/PlayerSeasonStatsByPlayer/1/${pid}?key=${apikey}`
   console.log(url)
+
+  // parameters we are sending to the request
   const params = {
     pid
   }
