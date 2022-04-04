@@ -1,0 +1,84 @@
+POST Data:  {
+  data: { playerId: '90026531' },
+  id: 'c327ea11-a908-4486-a497-a1f52de51efd',
+  meta: {
+    oracleRequest: {
+      callbackAddr: '0x8245D8fB7693cC7FC1eE2c8D240858f5CecFF1Ed',
+      callbackFunctionId: '0x4357855e',
+      cancelExpiration: '1649098312',
+      data: '0x68706c617965724964683930303236353331',
+      dataVersion: '1',
+      payment: '100000000000000000',
+      requestId: '0xf25e6b38d9b2e0eb777a730eab096bd4284f0c6997ac11f1d8a0515f194de0ea',
+      requester: '0x8245D8fB7693cC7FC1eE2c8D240858f5CecFF1Ed',
+      specId: '0x6333323765613131613930383434383661343937613166353264653531656664'
+    }
+  }
+}
+https://api.sportsdata.io/v3/soccer/stats/json/PlayerSeasonStatsByPlayer/1/90026531?key=c356df0197c44f239dbd4faf213fbcd1
+{"message":"Received response: [{\"StatId\":57355,\"SeasonType\":1,\"Season\":2016,\"RoundId\":1,\"TeamId\":517,\"PlayerId\":90026531,\"Name\":\"Wayne Rooney\",\"ShortName\":\"W. Rooney\",\"Team\":\"Manchester United FC\",\"PositionCategory\":\"A\",\"Position\":\"A\",\"Started\":26,\"GlobalTeamId\":90000517,\"Updated\":\"2018-03-22T18:17:24\",\"UpdatedUtc\":\"2018-03-22T22:17:24\",\"Games\":27,\"FantasyPoints\":124.6,\"FantasyPointsFanDuel\":null,\"FantasyPointsDraftKings\":124.6,\"FantasyPointsYahoo\":null,\"FantasyPointsMondogoal\":85.6,\"Minutes\":1109,\"Goals\":1.6,\"Assists\":1.4,\"Shots\":32.5,\"ShotsOnGoal\":11,\"YellowCards\":0.9,\"RedCards\":0,\"YellowRedCards\":0,\"Crosses\":24.4,\"TacklesWon\":12.4,\"Interceptions\":2.1,\"OwnGoals\":0,\"Fouls\":12.4,\"Fouled\":3.2,\"Offsides\":3.4,\"Passes\":530.1,\"PassesCompleted\":442.2,\"LastManTackle\":0,\"CornersWon\":3.9,\"BlockedShots\":4.3,\"Touches\":0,\"DefenderCleanSheets\":0,\"GoalkeeperSaves\":0,\"GoalkeeperGoalsAgainst\":0,\"GoalkeeperSingleGoalAgainst\":0,\"GoalkeeperCleanSheets\":0,\"GoalkeeperWins\":0,\"PenaltyKickGoals\":0.2,\"PenaltyKickMisses\":0,\"PenaltyKickSaves\":0,\"PenaltiesWon\":0,\"PenaltiesConceded\":0,\"Score\":null,\"OpponentScore\":0}]","level":"info","timestamp":"2022-04-04T18:46:55.093Z"}
+Result:  {
+  jobRunID: 'c327ea11-a908-4486-a497-a1f52de51efd',
+  data: [
+    {
+      StatId: 57355,
+      SeasonType: 1,
+      Season: 2016,
+      RoundId: 1,
+      TeamId: 517,
+      PlayerId: 90026531,
+      Name: 'Wayne Rooney',
+      ShortName: 'W. Rooney',
+      Team: 'Manchester United FC',
+      PositionCategory: 'A',
+      Position: 'A',
+      Started: 26,
+      GlobalTeamId: 90000517,
+      Updated: '2018-03-22T18:17:24',
+      UpdatedUtc: '2018-03-22T22:17:24',
+      Games: 27,
+      FantasyPoints: 124.6,
+      FantasyPointsFanDuel: null,
+      FantasyPointsDraftKings: 124.6,
+      FantasyPointsYahoo: null,
+      FantasyPointsMondogoal: 85.6,
+      Minutes: 1109,
+      Goals: 1.6,
+      Assists: 1.4,
+      Shots: 32.5,
+      ShotsOnGoal: 11,
+      YellowCards: 0.9,
+      RedCards: 0,
+      YellowRedCards: 0,
+      Crosses: 24.4,
+      TacklesWon: 12.4,
+      Interceptions: 2.1,
+      OwnGoals: 0,
+      Fouls: 12.4,
+      Fouled: 3.2,
+      Offsides: 3.4,
+      Passes: 530.1,
+      PassesCompleted: 442.2,
+      LastManTackle: 0,
+      CornersWon: 3.9,
+      BlockedShots: 4.3,
+      Touches: 0,
+      DefenderCleanSheets: 0,
+      GoalkeeperSaves: 0,
+      GoalkeeperGoalsAgainst: 0,
+      GoalkeeperSingleGoalAgainst: 0,
+      GoalkeeperCleanSheets: 0,
+      GoalkeeperWins: 0,
+      PenaltyKickGoals: 0.2,
+      PenaltyKickMisses: 0,
+      PenaltyKickSaves: 0,
+      PenaltiesWon: 0,
+      PenaltiesConceded: 0,
+      Score: null,
+      OpponentScore: 0
+    },
+    result: null
+  ],
+  result: null,
+  statusCode: 200
+}
